@@ -9,31 +9,25 @@ function Header() {
 
                 <div className=" items-center space-y-4 px-4 mt-10 ">
                     <div className="flex items-center space-x-4 font-bold text-4xl">
-                        <i class="fa-brands fa-slack"></i>
-                        <NavLink to="/">Dash</NavLink>
+                        <NavLink to="/"><i class="fa-brands fa-slack"></i>Dash</NavLink>
                     </div>
                     
                     <div className="flex items-center space-x-4 font-bold text-3xl">
-                        <i class="fa-brands fa-product-hunt"></i>
-                        <NavLink to="/product">Product</NavLink>
+                        <NavLink to="/product"><i class="fa-brands fa-product-hunt"></i>Product</NavLink>
                     </div>    
                     
                     <div className="flex items-center space-x-4 font-bold text-3xl">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <NavLink to="/services">Services</NavLink>
+                        <NavLink to="/services"><i class="fa-solid fa-briefcase"></i>Services</NavLink>
                     </div>
                     <div className="flex items-center space-x-4 font-bold text-3xl">
-                        <i class="fa-solid fa-calendar-days"></i>
-                        <NavLink to="/attend">Attend</NavLink>
+                        <NavLink to="/attend"><i class="fa-solid fa-calendar-days"></i>Attend</NavLink>
                     </div>
                     <div className="flex items-center space-x-4 font-bold text-3xl">
-                    <i class="fa-solid fa-user"></i>
-                    <NavLink to="/parent">Parent</NavLink>
+                    <NavLink to="/parent"><i class="fa-solid fa-user"></i>Parent</NavLink>
                     </div>
 
                     <div className="flex items-center space-x-4 font-bold text-3xl">
-                        <i class="fa-solid fa-headphones"></i>
-                        <NavLink to="/help">Help</NavLink>
+                        <NavLink to="/help"><i class="fa-solid fa-headphones"></i>Help</NavLink>
                     </div>
             
            </div>  
